@@ -1,4 +1,4 @@
-#Description
+# Description
 
 Imagine we have a service which is receiving a huge number of requests, but it can only serve a limited number of requests per specific period of time. To handle this problem we would need some kind of throttling or rate limiting mechanism that would allow only a certain number of requests so our service can respond to all of them. A rate limiter, at a high-level, limits the number of events an entity (user, device, IP, etc.) can perform in a particular time window. For example:
 A user can send only one message per second.
